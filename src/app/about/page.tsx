@@ -26,7 +26,7 @@ export default function AboutPage() {
           </p>
         </div>
         <p className="text-muted-foreground text-lg py-4">
-          Greetings! I'm Paras Chandra, a highly motivated newcomer with a robust academic background and practical expertise in web development. 
+          Greetings! I&apos;m Paras Chandra, a highly motivated newcomer with a robust academic background and practical expertise in web development. 
           Proficient in Python, SQL, HTML, CSS, JavaScript, and React JS. 
           I am actively pursuing opportunities in front-end development and software engineering. <br/><br />
           My keen interest lies in front-end development, where I aim to leverage my skills to craft intuitive interfaces and compelling web experiences. 
