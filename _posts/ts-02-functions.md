@@ -1,6 +1,6 @@
 ---
 title: "Ep.02: Functions in TS"
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "This episode covers the implementation of functions in TS with type-casting."
 date: "2024-04-18"
 coverImage: "/assets/blog/typescript/typescript.png"
 tags: ["typescript", "ts notes", "notes"]

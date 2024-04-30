@@ -1,6 +1,6 @@
 ---
 title: "Ep.10: Accessors in Typescript"
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "This episode talks about the getter and setter methods for exposing the members."
 date: "2024-04-26"
 coverImage: "/assets/blog/typescript/typescript.png"
 tags: ["typescript", "ts notes", "notes"]

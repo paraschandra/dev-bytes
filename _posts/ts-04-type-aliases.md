@@ -1,6 +1,6 @@
 ---
 title: "Ep.04: Type Aliases on Rescue"
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "This episode discusses about the type aliases in TS and it's usecases."
 date: "2024-04-20"
 coverImage: "/assets/blog/typescript/typescript.png"
 tags: ["typescript", "ts notes", "notes"]

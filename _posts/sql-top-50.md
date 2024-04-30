@@ -1,6 +1,6 @@
 ---
 title: "Top 50 SQL Questions"
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "The top 50 sql queries asked in interviews from Love Babbar's YT channel."
 date: "2024-04-22"
 coverImage: "/assets/blog/sql/sql.png"
 tags: ["sql", "sql notes", "notes"]

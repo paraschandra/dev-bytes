@@ -1,6 +1,6 @@
 ---
 title: "Ep.11: Abstract Class and Interfaces"
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "This episode is focused on the abstract classes and the difference between abstract classes & interfaces."
 date: "2024-04-27T05:35:07.322Z"
 coverImage: "/assets/blog/typescript/typescript.png"
 tags: ["typescript", "ts notes", "notes"]

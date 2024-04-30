@@ -1,6 +1,6 @@
 ---
 title: "Ep.05: Readonly and Optional"
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "This episode is focused on the keyword 'readonly' and 'optional' fields."
 date: "2024-04-21"
 coverImage: "/assets/blog/typescript/typescript.png"
 tags: ["typescript", "ts notes", "notes"]

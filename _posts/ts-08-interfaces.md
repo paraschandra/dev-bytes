@@ -1,6 +1,6 @@
 ---
 title: "Ep.08: Interfaces in Typescript"
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "Another interesting way of naming an object. This episode covers interfaces in depth."
 date: "2024-04-24"
 coverImage: "/assets/blog/typescript/typescript.png"
 tags: ["typescript", "ts notes", "notes"]

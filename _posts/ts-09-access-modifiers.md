@@ -1,6 +1,6 @@
 ---
 title: "Ep.09: Access Modifiers in Typescript"
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "In this episode we'll see how to alter the member visibility in TS classes."
 date: "2024-04-25"
 coverImage: "/assets/blog/typescript/typescript.png"
 tags: ["typescript", "ts notes", "notes"]
@@ -9,9 +9,9 @@ author: "Paras Chandra"
 ---
 
 The visibility of class members can be set by access modifiers. There are three types of modifiers:
-1. public
-2. private
-3. protected
+a. public
+b. private
+c. protected
 
 Lets see what's different about these in TS than the other languages:
 

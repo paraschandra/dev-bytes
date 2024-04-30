@@ -1,6 +1,6 @@
 ---
 title: "Ep.03: Objects in TS"
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "This episode covers the vivid scenarios with objects in TS."
 date: "2024-04-19"
 coverImage: "/assets/blog/typescript/typescript.png"
 tags: ["typescript", "ts notes", "notes"]

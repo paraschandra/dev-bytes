@@ -1,6 +1,6 @@
 ---
 title: "Ep.07: Tuples in Typescript"
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "Tuples are present in multiple languages. In this episode let's see the use of tuples in TS."
 date: "2024-04-23"
 coverImage: "/assets/blog/typescript/typescript.png"
 tags: ["typescript", "ts notes", "notes"]

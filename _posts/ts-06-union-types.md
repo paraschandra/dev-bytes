@@ -1,6 +1,6 @@
 ---
 title: "Ep.06: Union Types in TS"
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "This episode is focused on the union type present in TS with multiple usecases."
 date: "2024-04-22"
 coverImage: "/assets/blog/typescript/typescript.png"
 tags: ["typescript", "ts notes", "notes"]

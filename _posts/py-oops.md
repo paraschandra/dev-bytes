@@ -1,6 +1,6 @@
 ---
 title: "OOPS in Python"
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "Every important topic of Object Oriented Programming(OOPs) is covered."
 date: "2024-03-12"
 coverImage: "/assets/blog/python/python.png"
 tags: ["python", "py notes", "notes"]

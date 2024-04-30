@@ -1,6 +1,6 @@
 ---
 title: "Ep.01: Getting Started with TS"
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "Covering the basics of typescript and it's usecases. Basically, a starter blog post."
 date: "2024-04-17"
 coverImage: "/assets/blog/typescript/typescript.png"
 tags: ["typescript", "ts notes", "notes"]
