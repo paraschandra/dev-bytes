@@ -51,7 +51,7 @@ export default function Post({ params }: Params) {
 					alt="cover"
 					fill
 					className=" object-cover object-center rounded-md border-[0.5px] border-zinc-600"
-					sizes="(max-width: 768px) 60vw, (max-width: 1200px) 75vw, 100vw"
+					sizes="(max-width: 768px) 85vw, (max-width: 1200px) 90vw, 100vw"
 				/>
 			</div>
             
