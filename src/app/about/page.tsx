@@ -4,9 +4,9 @@ import React from 'react'
 export default function AboutPage() {
   return (
     <div className="container max-w-6xl lg:py-10">
-      <div className="flex flex-col items-start gap-4 md:flex-row md:justify-between md:gap-8">
-        <div className="flex-1 space-x-4">
-          <h1 className="inline-block font-black text-4xl lg:text-5xl">
+      <div className="flex flex-col items-center sm:items-start gap-4 md:flex-row md:justify-between md:gap-8">
+        <div className="flex-1 space-x-4 max-md:text-center">
+          <h1 className="inline-block font-semibold text-4xl lg:text-5xl">
             About Me
           </h1>
         </div>

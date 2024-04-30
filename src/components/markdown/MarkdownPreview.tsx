@@ -14,7 +14,7 @@ type MarkdownProps = {
     className?: string;
 }
 
-export default function MarkdownPreview({content, className = "sm:p-10"}: MarkdownProps) {
+export default function MarkdownPreview({content, className = "sm:px-10 sm:py-2"}: MarkdownProps) {
   return (
     <Markdown
      className={cn("dark:text-gray-200 space-y-8", className)}
@@ -35,7 +35,7 @@ export default function MarkdownPreview({content, className = "sm:p-10"}: Markdo
             return (
                 <h1
                     {...props}
-                    className="text-xl font-bold mt-10 mb-10"
+                    className="text-xl font-semibold mt-10 mb-10"
                 />
             );
         },
@@ -43,7 +43,7 @@ export default function MarkdownPreview({content, className = "sm:p-10"}: Markdo
             return (
                 <h1
                     {...props}
-                    className="text-xl font-bold mt-10 mb-10"
+                    className="text-lg font-semibold mt-10 mb-10"
                 />
             );
         },
@@ -62,7 +62,7 @@ export default function MarkdownPreview({content, className = "sm:p-10"}: Markdo
 
                 return (
                     <div className=" bg-graident-dark text-gray-300 border-[0.5px] rounded-md border-zinc-500">
-                        <div className="flex items-center justify-between px-5 py-2 border-b-[0.5px] border-zinc-500">
+                        <div className="flex items-center justify-between px-5 py-1 sm:py-2 border-b-[0.5px] border-zinc-500">
                             <div className="flex items-center gap-2">
                                 <Icon />
                                 <p className="text-sm text-gray-400">
@@ -73,13 +73,14 @@ export default function MarkdownPreview({content, className = "sm:p-10"}: Markdo
                             <CopyButton id={id} />
                         </div>
                         <div className="overflow-x-auto w-full">
-                            <div className='px-2' id={id}>
+                            <div className='px-1 sm:px-2' id={id}>
                                 <SyntaxHighlighter
                                     language={match[1]}
                                     style={atomDark}
                                     showLineNumbers={false}
                                     wrapLines={true}
                                     PreTag="div"
+                                    className = "text-xs sm:text-base"
                                     customStyle={{ background: 'transparent' }}
                                 >
                                     {String(children).replace(/\n$/, "")}
@@ -107,7 +108,7 @@ export default function MarkdownPreview({content, className = "sm:p-10"}: Markdo
                         background: "#242C3D",
                     }}
                 >
-                    <blockquote {...props} className='leading-3'/>
+                    <blockquote {...props} className='leading-5 md:leading-3'/>
                 </div>
             );
         },

@@ -14,7 +14,7 @@ export default function FeaturedPosts({ blog }: {blog: Post}) {
         <Link href={`/posts/${blog.slug}`}>
           <div className="relative w-full h-64 md:h-72 xl:h-80">
               <Image src={blog.coverImage} alt='cover-img' fill className='object-cover object-center'
-              sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'/>
+              sizes="(max-width: 768px) 60vw, (max-width: 1200px) 75vw, 100vw"/>
           </div>
         </Link>
         

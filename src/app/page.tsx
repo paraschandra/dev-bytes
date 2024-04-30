@@ -5,7 +5,7 @@ import { getAllPosts } from '@/lib/api'
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
 
-export default async function page() {
+export default function page() {
   const allPosts = getAllPosts();
   const featuredPosts = allPosts.filter((post) => post.featured === true);
   const latestPosts = allPosts.slice(0, 5);

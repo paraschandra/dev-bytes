@@ -11,7 +11,7 @@ type Params = {
     };
 };
 
-export async function generateStaticParams() {
+export function generateStaticParams() {
 	const posts = getAllPosts();
   
 	return posts.map((post) => ({
@@ -19,7 +19,7 @@ export async function generateStaticParams() {
 	}));
 }
 
-export default async function Post({ params }: Params) {
+export default function Post({ params }: Params) {
     const post = getPostBySlug(params.slug);
 
     if (!post) {
@@ -27,7 +27,7 @@ export default async function Post({ params }: Params) {
     }
 
     return (
-        <div className="max-w-5xl mx-auto min-h-screen space-y-10">
+        <div className="max-w-5xl mx-auto min-h-screen space-y-6">
 			<div className="sm:px-10 space-y-5">
 				<div className="flex gap-2">
 					{post.tags?.map((tag) => (
@@ -51,7 +51,7 @@ export default async function Post({ params }: Params) {
 					alt="cover"
 					fill
 					className=" object-cover object-center rounded-md border-[0.5px] border-zinc-600"
-					sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+					sizes="(max-width: 768px) 60vw, (max-width: 1200px) 75vw, 100vw"
 				/>
 			</div>
             

@@ -1,15 +1,12 @@
 ---
-title: "Top 50 SQL questions"
+title: "Top 50 SQL Questions"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-date: "2020-03-16T05:35:07.322Z"
-coverImage: "/assets/blog/preview/cover.jpg"
+date: "2024-04-22"
+coverImage: "/assets/blog/sql/sql.png"
 tags: ["sql", "sql notes", "notes"]
 featured: true
-author:
-  name: Joe Haddad
-  picture: "/assets/blog/authors/joe.jpeg"
+author: "Paras Chandra"
 ---
-
 ## Database Tables
 - **Workers Table -**
 ```sql

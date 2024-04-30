@@ -2,12 +2,10 @@
 title: "Ep.11: Abstract Class and Interfaces"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 date: "2024-04-27T05:35:07.322Z"
-coverImage: "/assets/blog/typescript/typescript.jpg"
+coverImage: "/assets/blog/typescript/typescript.png"
 tags: ["typescript", "ts notes", "notes"]
 featured: true
-author:
-  name: Paras Chandra
-  picture: "/assets/blog/authors/joe.jpeg"
+author: "Paras Chandra"
 ---
 
 The classes that are abstract can't be directly instantiated.

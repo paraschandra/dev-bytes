@@ -1,5 +1,3 @@
-import { Author } from "./author";
-
 export type Post = {
     slug: string;
     title: string;
@@ -8,6 +6,6 @@ export type Post = {
     coverImage: string;
     tags: string[];
     featured: boolean;
-    author: Author;
+    author: string;
     content: string;
 }
