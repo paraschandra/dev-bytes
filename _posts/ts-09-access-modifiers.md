@@ -9,9 +9,9 @@ author: "Paras Chandra"
 ---
 
 The visibility of class members can be set by access modifiers. There are three types of modifiers:
-a. public
-b. private
-c. protected
+1. public
+2. private
+3. protected
 
 Lets see what's different about these in TS than the other languages:
 

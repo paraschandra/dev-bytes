@@ -6,7 +6,7 @@ import Markdown from 'react-markdown';
 import CopyButton from './CopyButton';
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { atomDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
-import remarkGfm from "remark-gfm";
+import gfm from 'remark-gfm';
 import Image from 'next/image';
 
 type MarkdownProps = {
@@ -18,7 +18,7 @@ export default function MarkdownPreview({content, className = "sm:px-10 sm:py-2"
   return (
     <Markdown
      className={cn("dark:text-gray-200 space-y-8", className)}
-     remarkPlugins={[remarkGfm]}
+     remarkPlugins={[gfm]}
      components={{
         h1: ({ node, ...props }) => {
             return <h1 {...props} className="text-3xl font-bold" />;
@@ -136,6 +136,30 @@ export default function MarkdownPreview({content, className = "sm:px-10 sm:py-2"
                     className="text-blue-400 underline"
                     target="_blank"
                     rel="noopener noreferrer"
+                />
+            );
+        },
+        ul: ({node, ...props}) => {
+            return (
+                <ul 
+                    {...props}
+                    className='list-disc list-inside'    
+                />
+            );
+        },
+        ol: ({node, ...props}) => {
+            return (
+                <ol
+                    {...props}
+                    className='list-decimal list-inside'
+                />
+            );
+        },
+        li: ({node, ...props}) => {
+            return (
+                <li
+                    {...props}
+                    className='leading-6'
                 />
             );
         },

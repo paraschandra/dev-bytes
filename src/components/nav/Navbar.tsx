@@ -5,7 +5,7 @@ import NavItems from './nav-items';
 
 const Navbar = () => {
   return (
-    <nav className='flex items-center justify-between py-4 z-10 sticky top-0 
+    <nav className='flex items-center justify-between py-4 z-10 sm:sticky top-0 
       bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60'
     >
       <div className="flex gap-3 items-center">
