@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/nav/Navbar";
 import Footer from "@/components/footer/Footer";
 import MobileNav from "@/components/nav/MobileNav";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +31,7 @@ export default function RootLayout({
           <main className="max-w-7xl mx-auto lg:pb-10 lg:pt-1 space-y-10 p-5 lg:p-0">
             <Navbar/>
             {children}
+            <Analytics />
           </main>
           <MobileNav />
           <Footer/>
