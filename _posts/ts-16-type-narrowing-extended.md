@@ -8,11 +8,11 @@ featured: false
 author: "Paras Chandra"
 ---
 
-Uptil now we've only focused around narrowing single variables with simple types like `string`, `boolean`, and `number`.
+Up til now we've only focused around narrowing single variables with simple types like `string`, `boolean`, and `number`.
 While this is common, most of the time in JavaScript we’ll be dealing with slightly more complex structures.
 
 Lets take an example of an interface dealing with the shapes and their dimensions:
-```TS
+```ts
 interface Shape {
   kind: "circle" | "square";
   radius?: number;
@@ -31,7 +31,7 @@ function getArea(shape: Shape) {
 
 This can be solved by properly separating `Shape` out into two types with different values of `kind` and properties declared as required this is what Discriminated union do.
 
->A **Discriminated Union** in TypeScript is a union of types with a common literal field, known as a "discriminant" or "tag." This field is usually a string or number literal unique to each member of the union, allowing TypeScript to narrow down the type based on that field.
+A **Discriminated Union** in TypeScript is a union of types with a common literal field, known as a "discriminant" or "tag." This field is usually a string or number literal unique to each member of the union, allowing TypeScript to narrow down the type based on that field.
 ```ts
 interface Circle {
   kind: "circle";
