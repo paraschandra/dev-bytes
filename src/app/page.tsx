@@ -13,7 +13,7 @@ export default function page() {
   return (
     <>
       <section className='w-full xl:p-5 p-0'>
-        <div className='w-full grid grid-cols-1 md:grid-cols-3 gap-5 p-0 pt-4 md:p-4'>
+        <div className='w-full grid grid-cols-1 md:grid-cols-3 gap-5 p-0 md:p-4'>
           {featuredPosts?.map((blog, index) => (
             <FeaturedPosts blog={blog} key={index}/>
           ))}
