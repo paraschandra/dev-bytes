@@ -3,6 +3,7 @@ import React from 'react'
 import { IoLogoGithub, IoLogoLinkedin, IoMail } from "react-icons/io5";
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <div className='max-w-7xl mx-auto mt-8 p-10 max-sm:mb-14 flex flex-col gap-3 items-center justify-between'>
         <div className="flex gap-2 items-center">
@@ -20,7 +21,7 @@ export default function Footer() {
         </div>
 
         <div className="flex items-center justify-between gap-3 text-sm text-gray-400">
-            <p><Link href="https://paraschandra.github.io">Paras Chandra</Link> • @2024 • Dev Bytes Blog</p>
+            <p><Link href="https://paraschandra.github.io">Paras Chandra</Link> • {`@${currentYear}`} • Dev Bytes Blog</p>
         </div>
 
         <p className="text-sm text-gray-400">Built using Next JS and Markdown</p>
