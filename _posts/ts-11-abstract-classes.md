@@ -4,7 +4,7 @@ summary: "This episode is focused on the abstract classes and the difference bet
 date: "2024-04-27T05:35:07.322Z"
 coverImage: "/assets/blog/typescript/typescript.png"
 tags: ["typescript", "ts notes", "notes"]
-featured: true
+featured: false
 author: "Paras Chandra"
 ---
 
