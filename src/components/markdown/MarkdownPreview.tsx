@@ -7,6 +7,7 @@ import CopyButton from './CopyButton';
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { atomDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import gfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
 import Image from 'next/image';
 
 type MarkdownProps = {
@@ -19,6 +20,7 @@ export default function MarkdownPreview({content, className = "sm:px-10 sm:py-2"
     <Markdown
      className={cn("dark:text-gray-200 space-y-8", className)}
      remarkPlugins={[gfm]}
+     rehypePlugins={[rehypeRaw]}
      components={{
         h1: ({ node, ...props }) => {
             return <h1 {...props} className="text-3xl font-bold" />;
@@ -162,6 +164,11 @@ export default function MarkdownPreview({content, className = "sm:px-10 sm:py-2"
                     className='leading-6'
                 />
             );
+        },
+        br: ({node, ...props}) => {
+            return (
+                <br />
+            )
         },
     }}
     >

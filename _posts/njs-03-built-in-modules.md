@@ -1,7 +1,7 @@
 ---
 title: "Ep.03: Built-in Modules"
 summary: "In this episode of node js series, we'll look into the built-in modules"
-date: "2025-01-17"
+date: "2025-01-18"
 coverImage: "/assets/blog/node js/node.png"
 tags: ["node js", "nodejs notes", "notes"]
 featured: false

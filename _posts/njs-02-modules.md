@@ -1,14 +1,14 @@
 ---
 title: "Ep.02: Modules in Node.js"
 summary: "This episode talks about modules, their types, and related concepts"
-date: "2025-01-16"
+date: "2025-01-17"
 coverImage: "/assets/blog/node js/node.png"
 tags: ["node js", "nodejs notes", "notes"]
 featured: true
 author: "Paras Chandra"
 ---
 
-A module is an encapsulated and reusable chunk of code that has its own context.<br>
+A module is an encapsulated and reusable chunk of code that has its own context. <br />
 
 In Node.js, each file is treated as a seperate module.
 
@@ -196,10 +196,11 @@ exports.add = (a, b) => {
 ```
 > It is discouraged to use only exports
 
-**Module.exports vs exports:**<br>
-- `module.exports` is the actual object that gets exported. Think of it as the container that holds everything you want to make available to other modules.
+**Module.exports vs exports:** <br/>
 
-- `exports` is just a reference to module.exports. It's a shortcut for convenience.
+`module.exports` is the actual object that gets exported. Think of it as the container that holds everything you want to make available to other modules.
+
+`exports` is just a reference to module.exports. It's a shortcut for convenience.
 
 > Assigning a new value directly to exports breaks the reference to module.exports, leading to unexpected behavior.
 
