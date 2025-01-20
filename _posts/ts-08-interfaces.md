@@ -4,7 +4,7 @@ summary: "Another interesting way of naming an object. This episode covers inter
 date: "2024-04-24"
 coverImage: "/assets/blog/typescript/typescript.png"
 tags: ["typescript", "ts notes", "notes"]
-featured: true
+featured: false
 author: "Paras Chandra"
 ---
 
