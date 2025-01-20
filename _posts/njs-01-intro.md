@@ -3,7 +3,7 @@ title: "Ep.01: Introduction to Node.js"
 summary: "This episode gives an introduction to Node JS and JS Runtime"
 date: "2025-01-16"
 coverImage: "/assets/blog/node js/node.png"
-tags: ["node js", "nodejs notes", "notes"]
+tags: ["node js", "notes"]
 featured: false
 author: "Paras Chandra"
 ---

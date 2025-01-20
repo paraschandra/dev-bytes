@@ -3,7 +3,7 @@ title: "Ep.02: Modules in Node.js"
 summary: "This episode talks about modules, their types, and related concepts"
 date: "2025-01-17"
 coverImage: "/assets/blog/node js/node.png"
-tags: ["node js", "nodejs notes", "notes"]
+tags: ["node js", "notes"]
 featured: true
 author: "Paras Chandra"
 ---
