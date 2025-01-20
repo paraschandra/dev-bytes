@@ -105,16 +105,16 @@ o
 
 **Types of Streams:**<br>
 
-- `Readble streams` from which data can be read.<br>
+1. `Readble streams` from which data can be read.<br>
     Ex: Reading from a file as readable stream.
 
-- `Writable streams` to which we can write data.<br>
+2. `Writable streams` to which we can write data.<br>
     Ex: Writing to a file as writable stream.
 
-- `Duplex streams` that are both Readable and Writable.<br>
+3. `Duplex streams` that are both Readable and Writable.<br>
     Ex: Sockets as duplex stream.
 
-- `Transform streams` that can modify or transform the data as it is written and read.<br>
+4. `Transform streams` that can modify or transform the data as it is written and read.<br>
     Ex: File compression where we can write compressed data and read de-compressed data to and from a file as a transform stream.
 
 
