@@ -4,7 +4,7 @@ summary: "This episode talks about the built-in fs module of node js."
 date: "2025-01-21"
 coverImage: "/assets/blog/node js/node.png"
 tags: ["node js", "notes"]
-featured: true
+featured: false
 author: "Paras Chandra"
 ---
 

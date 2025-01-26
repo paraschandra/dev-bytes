@@ -7,6 +7,7 @@ import CopyButton from './CopyButton';
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { atomDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import gfm from 'remark-gfm';
+import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
 import Image from 'next/image';
 
@@ -19,7 +20,7 @@ export default function MarkdownPreview({content, className = "sm:px-10 sm:py-2"
   return (
     <Markdown
      className={cn("dark:text-gray-200 space-y-8", className)}
-     remarkPlugins={[gfm]}
+     remarkPlugins={[remarkGfm]}
      rehypePlugins={[rehypeRaw]}
      components={{
         h1: ({ node, ...props }) => {
@@ -110,22 +111,20 @@ export default function MarkdownPreview({content, className = "sm:px-10 sm:py-2"
                         background: "#242C3D",
                     }}
                 >
-                    <blockquote {...props} className='leading-5 md:leading-3'/>
+                    <blockquote {...props} className='leading-5'/>
                 </div>
             );
         },
         img: ({ node, ...props }) => {
             return (
                 <>
-                    <span className="block relative w-full h-96 rounded-md mt-5 mb-5">
+                    <span className="flex justify-center relative w-full h-auto rounded-md mt-5 mb-5">
                         <Image
                             src={props?.src || ""}
                             alt={props?.alt || ""}
-                            layout="fill"
-                            objectPosition="center"
-                            objectFit="contain"
-                            placeholder="blur"
-                            blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII="
+                            width={600}
+                            height={400}
+                            style={{ maxWidth: "100%", height: "auto" }}
                         />
                     </span>
                 </>

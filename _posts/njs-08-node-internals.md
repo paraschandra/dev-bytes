@@ -4,22 +4,23 @@ summary: "This episode is about the internal working of node js"
 date: "2025-01-23"
 coverImage: "/assets/blog/node js/node.png"
 tags: ["node js", "notes"]
-featured: false
+featured: true
 author: "Paras Chandra"
 ---
 
 ### Node JS Architecture
-<img src="../public/assets/blog/node js/arch.webp">
+![node architecture](/assets/blog/node%20js/arch.webp)
 <small>Image Credits: LitsLink</small><br/><br/>
 
 `JS runtime` is an environment which provides all the necessary components in order to use and run a JS program outside the browser.
 
 At its core, it contains three major components:
-- **Dependencies:** Libraries required for node.js functioning like - V8, libuv, zlib, crypto, etc.
 
-- **C/C++ feature** like file system access and networking.
+**Dependencies:** Libraries required for node.js functioning like - V8, libuv, zlib, crypto, etc.
 
-- **JS library** to provide functions & utilities to tap into C++ features using V8 engine.
+**C/C++ feature** like file system access and networking.
+
+**JS library** to provide functions & utilities to tap into C++ features using V8 engine.
 
 ### Libuv
 libuv is a cross platform open source library written in C language.
@@ -131,7 +132,8 @@ It is a C program and is part of libuv.
 A design pattern that orchestrates or co-ordinates the execution of synchronous and asynchronous code in Node.js
 
 `Event Loop`
-<img src="https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6b288555862049b4b5cd7f19e2ae909f?format=webp&width=2000" class="center">
+![Event loop](/assets/blog/node%20js/event_loop.webp)
+<small>Image Credits: Codevolution</small>
 
 User written synchronous JS code takes priority over async code that the runtime would like to execute.
 

@@ -108,12 +108,15 @@ It is represented as: `MAJOR.MINOR.PATCH`
 - **PATCH:** Incremented for backward-compatible bug fixes.
 
 Version Prefixes:
-1. `^` → Allows updates within the same major version. 
-    - Example: ^1.2.3 allows 1.3.0, not 2.0.0.
-2. `~` → Allows updates within the same minor version.
-    - Example: ~1.2.3 allows 1.2.4, not 1.3.0.
-3. `No prefix` → Locks to the exact version.
-    - Example: 1.2.3 allows only 1.2.3.
+
+`^` → Allows updates within the same major version.<br/>
+     Example: ^1.2.3 allows 1.3.0, not 2.0.0.
+
+`~` → Allows updates within the same minor version.<br/>
+     Example: ~1.2.3 allows 1.2.4, not 1.3.0.
+
+`No prefix` → Locks to the exact version.<br/>
+     Example: 1.2.3 allows only 1.2.3.
 
 This system helps maintain compatibility and manage dependencies effectively.
 
