@@ -15,7 +15,7 @@ Clients are internet-connected devices such as computers or mobile phones along 
 
 Servers on the other hand are computers that store web pages, sites, or apps.
 
-<img src="../public/assets/blog/node js/http.png">
+![http](https://static.takeuforward.org/content/-jUIKMoi0)
 <small>Image credits: takeuforward</small>
 
 ### HTTP (Hypertext Transfer Protocol)
